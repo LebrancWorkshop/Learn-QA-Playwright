@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "pnpm exec playwright test",
+    "test:debug": "pnpm exec playwright test --debug",
     "test:head": "pnpm exec playwright test --headed",
     "test:report": "pnpm exec playwright test && pnpm exec playwright show-report"
   },
@@ -13,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.36.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }
