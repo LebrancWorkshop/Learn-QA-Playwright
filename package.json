@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "pnpm exec playwright test",
+    "test:head": "pnpm exec playwright test --headed",
     "test:report": "pnpm exec playwright test && pnpm exec playwright show-report"
   },
   "keywords": [],
