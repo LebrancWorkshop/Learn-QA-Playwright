@@ -7,7 +7,9 @@
     "test": "pnpm exec playwright test",
     "test:debug": "pnpm exec playwright test --debug",
     "test:head": "pnpm exec playwright test --headed",
-    "test:report": "pnpm exec playwright test && pnpm exec playwright show-report"
+    "test:report": "pnpm exec playwright test && pnpm exec playwright show-report",
+    "test:chromium": "pnpm exec playwright test --project=chromium",
+    "test:chromium-report": "pnpm exec playwright test --project=chromium && pnpm exec playwright show-report --project=chromium"
   },
   "keywords": [],
   "author": "",
